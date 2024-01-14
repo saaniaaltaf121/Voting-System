@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-image: url("./wp9705808.webp") ;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    
+}
+.main-container{
+    width: 450px;
+    
+    background-color: rgba(112, 33, 79, 0.411);
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+.main-container h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+.main-container .input-section{
+    width: 100%;
+    height: 70px;
+
+    margin: 30px 0;
+   
+}
+.input-section input{
+    height: 70%;
+    width: 65%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: white;
+    
+}
+.input-section input::placeholder{
+    color: gray;
+    padding-left: 5px;
+    
+}
+.main-container .btn{
+    width: 30%;
+    height: 67%;
+    
+    background-color: rgb(32, 34, 34);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    border-radius: 6px;
+
+}
+.table{
+   width: 89%;
+   height: 100%;
+   padding: 10px;
+   background-color: rgba(255, 255, 255, 0.536);
+   border-radius: 8px;
+   margin: 20px;
+ } */
+.candidatesList {
+    list-style: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.236);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+
+ul {
+    background-color: rgba(255, 255, 255, 0.236);
+    color:white;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+    list-style: none;
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Space elements evenly */
+    gap: 30px
+}
+
+ul:hover {
+    background-color: rgb(250, 243, 243); 
+    color: black;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
+    border-radius: 4px; 
+   
+}
